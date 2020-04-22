@@ -13,3 +13,4 @@ class AuthController < ApplicationController
 
     def show
     end
+end
