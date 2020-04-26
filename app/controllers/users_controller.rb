@@ -16,5 +16,7 @@ class UsersController < ApplicationController
     def show
       user = User.find(params[:id])
       render json: user.notes
+      #show individual note
+      #Do I need to nest in routes?
     end
   end
